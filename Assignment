@@ -1,0 +1,13 @@
+user_name = "Bro Code"
+Year =2026
+Pi=3.14
+is_Admin=False
+
+
+print(f"Welcome {user_name} to the year {Year}")
+print(f"the value of pi if approx {Pi}")
+
+if is_Admin:
+    print("yOU ARE AN ADMIN")
+else:
+    print("Your are not an admin")
