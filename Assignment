@@ -11,3 +11,9 @@ if is_Admin:
     print("yOU ARE AN ADMIN")
 else:
     print("Your are not an admin")
+
+age=20
+age=str(age)
+age += "5"
+
+print(age)
