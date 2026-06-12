@@ -1,9 +1,5 @@
-name= input("what is your name?")
-age = input("how old are you?")
 
-age = int(age)
-age = age + 1
-
-print(f"Hello {name}!")
-print("Happy Birthday!")
-print(f"You are {age} year old")
+length = int(input("enter lenght"))
+width =int(input("enter width"))
+area = length * width
+print(f"The area is {area}sqcm")
