@@ -1,0 +1,12 @@
+name = input("What is your name?")
+age = int(input("What is your age?"))
+
+print(f"Hello {name}")
+print(f"You are {age} years old")
+
+
+number1=int(input("enter first number"))
+number2=int(input("enter second number"))
+sum=number1+number2
+print(f'The sum of {number1} and {number2} is {sum}')
+
