@@ -1,0 +1,11 @@
+unit = float(input("enter the units consumed: "))
+
+if unit<=100:
+    unit = unit*5
+    print(f"Electricity bill is : Rs. {unit}")
+elif unit <=200:
+    unit = (100*5)+(unit-100)*7
+    print(f"Electricity bill is : Rs. {unit}")
+else:
+    unit =(100*5)+(100*7)+((unit-200)*10)
+    print(f"Electricity bill is : Rs. {unit}")
