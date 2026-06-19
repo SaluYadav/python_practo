@@ -1,6 +1,76 @@
-age=int(input("enter your age: "))
+# (1.1)
+# age=int(input("enter your age: "))
 
-if age<18:
-    print("not eligible to vote")
-else:
-    print("eligible to vote")
+# if age<18:
+#     print("not eligible to vote")
+# else:
+#     print("eligible to vote")
+
+# (1.2)
+# username=input("enter username: ")
+# password =input("enter password: ")
+
+# if username == "admin" and password=="1234":
+#     print("login successful")
+# else :
+#     print("invalid credentials")
+
+# (2.1)
+
+# a=float(input("enter any number: "))
+
+# if a%2==0:
+#     print("even")
+# else:
+#     print("odd")
+
+# (2.2)
+
+# a= int(input("Enter the 1st number"))
+# b= int(input("Enter the 2nd number"))
+
+# if a>b: 
+#     print(f"larger number: {a}")
+# else:
+#     print(f"larger number: {b}")
+
+# (3.1)
+# name=input("enter name: ")
+# print(name.upper())
+
+# (3.2)
+# a=input("start typing any thing: ")
+# print(len(a))
+
+# (4.1)
+# a=input("enter a word: ")
+# print(a[0])
+
+# (4.2)
+# a=input("enter a word: ")
+# print(a[-1])
+
+# (5.1)
+# price=float(input("enter the price: "))
+# print(f"{price:.2f}")
+
+# print(f"{price:010.2f}")
+
+# (5.2)
+
+# name = input("enter name: ")
+# age = input("enter age: ")
+
+# print(f"Name: {name}")
+# print(f"Age: {age}")
+
+# (6.1)
+# for a in range(1,11):
+#     print(a)
+
+# (6.2)
+
+password=input("enter password")
+while password != "python123":
+    password=input("enter password")
+print("access granted")
