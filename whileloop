@@ -1,0 +1,7 @@
+
+name = input("enter your name: ")
+
+while name=="":
+    print("name cannot be empty")
+    name = input("enter your name: ")
+print(f"Welcome {name}")

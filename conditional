@@ -1,0 +1,11 @@
+num = -4
+age = 24
+user_role = "Salu"
+# print("Positive" if num>0 else "Negative")
+# print("even" if num%2==0 else "odd")
+# result = "Adult" if age>18 else "Child"
+
+# print(result)
+access_level ="Full Access" if user_role=="admin" else "limited access"
+print(user_role)
+print(access_level)

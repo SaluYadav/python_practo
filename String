@@ -1,0 +1,27 @@
+# name=input("enter your name: ")
+
+# result =len(name)
+# result=name.find("v")
+# result=name.rfind("v")
+# result=name.capitalize()
+# result=name.replace(" ","-")
+# print(result)
+
+
+username=input("enter a username: ")
+
+# if len(username)>12:
+#     print("username should be less than 12 characters")
+# elif not username.find(" ")==-1:
+#     print("username should not contain spaces")
+# else:
+#     print(f"welcome {username}")
+
+if len(username)>12:
+    print("username should be less than 12 characters")
+elif not username.find(" ")==-1:
+    print("username should not contain spaces")
+elif not username.isalpha():
+    print("username cannot be numeric")
+else:
+    print(f"welcome {username}")

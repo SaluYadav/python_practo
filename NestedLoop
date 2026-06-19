@@ -1,0 +1,10 @@
+
+
+rows=int(input("enter # rows"))
+column=int(input("enter # columns"))
+symbol=input("enter a symbol to use: ")
+
+for x in range(3):
+    for y in range(column):
+        print({symbol},end=" ")
+    print()

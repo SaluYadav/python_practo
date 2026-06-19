@@ -1,0 +1,26 @@
+principle = 0
+rate = 0
+time = 0
+
+while principle <= 0:
+    principle=float(input("enter the principle amount: "))
+    if principle<=0:
+        print("principle can't be zero")
+
+while True:
+    rate=float(input("enter the rate: "))
+    if rate<0:
+        print("interest can't be zero")
+    else: break
+
+while time <= 0:
+    time=float(input("enter the time: "))
+    if time<=0:
+        print("time can't be zero")
+
+print(principle)
+print(rate)
+print(time)
+
+total=principle*pow((1+rate/100),time)
+print(f"balance after {time} year is {total:2f}Rs")

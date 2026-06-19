@@ -1,0 +1,10 @@
+p1 = 0.2334
+p2=34.9
+p3=-98.45
+
+print(f"price: ${p1:.2f}")
+print(f"price: ${p2:.3f}")
+print(f"price: ${p1:010}")
+print(f"price: ${p2:>010}")
+print(f"price: ${p3:<010}")
+print(f"price: ${p1:-}")

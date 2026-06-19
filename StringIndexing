@@ -1,0 +1,8 @@
+credit_number = "1234-5678-9012-3456"
+
+# print(credit_number[-2:])  # Output: "56"
+# print(credit_number[::2])  # Output: "1357902468"
+# print(f"xxxx-xxxx-{credit_number[-4:]}")
+
+# to reverse the string
+print(credit_number[::-1])
