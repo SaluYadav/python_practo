@@ -1,0 +1,106 @@
+# 1. Personal info card
+# name=input("Name : ")
+# age = input("Age : ")
+# city = input("City : ")
+# print(f"-----STUDENT CARD-----")
+# print(f"{'Name':>10}: {name}")
+# print(f"{'Age':>10}: {age}")
+# print(f"{'City':>10}: {city}")
+# print(f"----------------------")
+
+# -----------------------------------------------
+
+# 2. Movie ticket calculator
+# tickets=input("Enter the number of tickets you want to but: ")
+# ticket_price=250
+# gst=0.18
+# total_price=ticket_price*int(tickets)+(ticket_price*int(tickets)*gst)
+
+# print(f"Total price for {tickets} tickets is {total_price:.2f}")
+
+# -----------------------------------------------
+
+# 3. Temp checker
+# temp=float(input("Enter the temperature in Celsius: "))
+# if temp<20:
+#     print("Cold")
+# elif temp>=20 and temp<=35:
+#     print("Normal")
+# else:
+#     print("Hot")
+# -----------------------------------------------
+# 4. Web login validation
+# username=input("Enter your username: ")
+# password=input("Enter your password: ")
+# if username=="student" and password=="python123":
+#     print("Login successful")
+# else:
+#     print("Login failed")
+# -----------------------------------------------
+# 5. Positive, negative or zero checker
+# num=input("enter a number: ")
+# if int(num)>0:
+#     print("Positive")
+# elif int(num)<0:
+#     print("Negative")
+# else:
+#     print("Zero")
+# -----------------------------------------------
+# 6. String anaylyzer
+# text=input("Type a sentence: ")
+# if text.isupper():
+#     print("The text is in uppercase")
+# elif text.islower():
+#     print("The text is in lowercase")
+
+# print(f"The text has {len(text)} characters")
+# print(f"The first character is: {text[0]}")
+# print(f"The last character is : {text[-1]}")
+
+# -----------------------------------------------
+# 7. Email validator
+# email=input("Enter your email: ")
+# if "@" in email and ".com" in email:
+#     print("Valid email")
+# else:
+#     print("Invalid email")
+
+ # -----------------------------------------------
+
+# 8. Multiplication table generator
+# num=int((input("Enter a number to generate its multiplication table: ")))
+# for nums in range(1,11):
+#     print(f"{num}*{nums}={num*nums}")
+ # -----------------------------------------------
+ # 9. guess until correct
+# secret=25
+# num=int(input("Guess the number between 1 and 50: "))
+# while num!=secret:
+#     num=int(input("Wrong guess! Try again: "))
+# print("Congratulations! You guessed correctly.)")   
+ # -----------------------------------------------
+
+# 10. star rectangke
+# rows=int(input("Enter the number of rows: "))
+# columns=int(input("Enter the number of columns: "))
+# for i in range(rows):
+#     for j in range(columns):
+#         print("*",end="")
+#     print()
+
+ # -----------------------------------------------
+# 11. Number pattern
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print(j,end="")
+#     print()
+ # -----------------------------------------------
+
+# 12. challenge question
+n=int(input("Enter a number: "))
+for i in range(1,n+1):
+    for j in range(i):
+        print(i,end="")
+    print()
+    

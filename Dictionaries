@@ -1,0 +1,20 @@
+
+capitals = {"India": "New Delhi",
+"Japan": "Tokyo",
+"USA": "Washington D.c"}
+
+
+
+# capitals.update({"germany":"Berin"})
+# print(capitals)
+
+# values=capitals.values()
+# print(value)
+
+# keys=capitals.keys()
+# for key in capitals.keys():
+#     print(key)
+
+# items= capitals.items()
+for key,value in capitals.items():
+    print(f"{key}: {value}")

@@ -1,0 +1,32 @@
+# list
+# fruits =["apple","mango","jamun","orange","banana"]
+# print(dir(fruits))
+# print(help(fruits))
+# print(fruits)
+# print(fruits[3:])
+# fruits.append("pineapple")
+# print(fruits)
+# fruits.remove("banana")
+# print(fruits)
+# fruits.insert(0,"banana")
+# print(fruits)
+# fruits.sort()
+# fruits.reverse()
+# print(fruits)
+# print(fruits.index("apple"))
+# print(fruits)
+# for fruit in fruits:
+#     print(fruit)
+# print(fruits.count("apple"))
+
+# -------------------
+# SET
+# fruits ={"apple","mango","jamun","orange","banana"}
+# fruits.add("pineapple")
+# fruits.remove("banana")
+# print(fruits)
+
+# Tuples
+fruits =("apple","mango","jamun","orange","banana")
+# print(help(fruits))
+print(len(fruits))

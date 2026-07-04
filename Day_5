@@ -1,0 +1,68 @@
+# while loop
+# 1
+# a=1
+# while a<=5:
+#     print(a)
+#     a=a+1
+
+# 2
+# import time
+# for a in range(10,0,-1):
+#     seconds=a%60
+#     minutes=int(a/60)%60
+#     hour=int(a/3600)
+#     print(f"{hour:02}:{minutes:02}:{seconds:02}")
+#     time.sleep(1)
+# print("Time's up!")
+
+# import time
+# a=10
+# while a>0:
+#     second=a%60
+#     minute=int(a/60)%60
+#     hour=int(a/3600)
+#     print(f"{hour:02}:{minute:02}:{second:02}")
+#     time.sleep(1)
+#     a=a-1
+# print("time's up!")
+
+# 3
+# num=int(input("enter a number: "))
+
+# while num != 0:
+#     num=int(input("enter a number: "))
+# print("program ended")
+
+# for loops
+# 1
+# name=input("enter your name: ")
+# a=5
+# for a in range(1,6):
+#     print(name)
+    
+# 2
+# for a in range(1,11):
+#     print(a)
+
+# 3
+# sum=0
+# for a in range(1,6):
+    
+#     sum=sum+a
+# print(sum)
+
+# 4
+# even=2
+# while even <=20:
+#     print(even)
+#     even+=2
+
+# a=2
+# for a in range(2,21,2):
+#     print(a)
+#     a+=2
+
+# Nested Loop
+a=111
+while a in range(3):
+    print(a)
